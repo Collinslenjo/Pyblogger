@@ -1,0 +1,11 @@
+{% include 'partials/header.html' %}
+<h3>{{name}}</h3>
+<hr>
+<div class="blogposts">
+<ul>
+	{% for blog in blogs %}
+	<li><a href="/blog/details/{{blog.id}}">{{ blog.title }}</a>' : '{{ blog.text }}</li>
+	{% endfor %}
+</ul>
+</div>
+{% include 'partials/footer.html' %}
