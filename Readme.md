@@ -4,21 +4,18 @@
 
 #### Getting started
 
-'''Clone the repository'''
+```Clone the repository```
 
 Running the app
 
 > Install all the requirements in your environment.
 
-'''
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-'''
 #### Setup the Database in the '''blog/settings.py'''
 
-'''python
-
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -29,14 +26,13 @@ DATABASES = {
         'PORT':''
     }
 }
-
-'''
+```
 
 > After that, run the app using Django manage.py.
 
-'''
+```
 python manage.py runserver
-'''
+```
 
 > Access the homepage on '''http://localhost:8000'''
 
