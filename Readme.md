@@ -13,7 +13,7 @@ Running the app
 
 ```pip install -r requirements.txt```
 
-#### Setup the Database in the '''blog/settings.py'''
+#### Setup the Database in the ```blog/settings.py```
 
 ```python
 DATABASES = {
@@ -34,6 +34,6 @@ DATABASES = {
 python manage.py runserver
 ```
 
-> Access the homepage on '''http://localhost:8000'''
+> Access the homepage on ```http://localhost:8000```
 
 
